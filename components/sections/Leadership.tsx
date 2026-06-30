@@ -11,7 +11,7 @@ const MEMBERS: {
   { name: "Aniket Anant Ghule", role: "Founder & President",      photo: "/aniket-ghule.png", desc: "The visionary founder and driving force behind Shivbhakt Pratishthan's statewide volunteer movement."   },
   { name: "Atul Dhumal",        role: "Vice President",                                        desc: "Oversees strategic planning and coordination of major community programmes across Maharashtra."           },
   { name: "Sagar Shelar",       role: "Vice President",                                        desc: "Manages volunteer coordination and drives district-level expansion of the organisation."                  },
-  { name: "Mangesh Lomte",      role: "Secretary",                                             desc: "Handles day-to-day administration, documentation and operational management of the trust."               },
+  { name: "Mangesh Lomate",      role: "Secretary",                                             desc: "Handles day-to-day administration, documentation and operational management of the trust."               },
   { name: "Ranjit Patil",       role: "Joint Secretary",                                       desc: "Assists office operations and actively contributes to programme planning and execution."                 },
   { name: "Vitthal Shelke",     role: "Treasurer",                                             desc: "Responsible for financial management, fund allocation and transparent reporting."                        },
   { name: "Bipin Ghadge",       role: "Chief Organiser & YLTP Teacher",                         desc: "Leads large-scale campaigns, event planning and volunteer mobilisation statewide."                      },
