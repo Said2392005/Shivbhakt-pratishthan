@@ -3,7 +3,7 @@
 import { Fade } from "@/lib/motion";
 import {
   Landmark, Heart, Baby, Users, Flower2, BookOpen,
-  Droplets, ShieldCheck, Palmtree, Wheat, Leaf, Handshake,
+  Droplets, ShieldCheck, Palmtree, Wheat, Handshake, Truck,
 } from "lucide-react";
 
 const ACTIVITIES = [
@@ -17,8 +17,8 @@ const ACTIVITIES = [
   { Icon: ShieldCheck,title: "Free Medical Camps",               desc: "Conducting free health check-up camps in rural areas to bring quality healthcare to those who need it most."                            },
   { Icon: Palmtree,   title: "Tree Plantation",                  desc: "Planting thousands of trees across Maharashtra to combat deforestation and create a greener, healthier environment."                    },
   { Icon: Wheat,      title: "Food Distribution",                desc: "Supplying nutritious meals and food kits to underprivileged families, disaster-affected communities and daily wage workers."             },
-  { Icon: Leaf,       title: "Environmental Protection",         desc: "Running awareness campaigns, cleanliness drives and plastic-free initiatives to safeguard our natural environment."                     },
   { Icon: Handshake,  title: "Community Welfare",                desc: "Supporting village development, disaster relief and marginalised communities through targeted outreach and collective action."           },
+  { Icon: Truck,      title: "Road Safety & Transport Welfare",  desc: "Promoting road safety awareness, supporting transport drivers and vehicle owners, advocating for transporter welfare, and working towards policies that protect the interests of the transport community while encouraging safe and responsible transportation practices." },
 ];
 
 export default function Activities() {
