@@ -79,15 +79,18 @@ body {
   .container-site { padding-left: 2.5rem; padding-right: 2.5rem; }
 }
 
-.section-pad { padding-top: 6rem; padding-bottom: 6rem; }
-@media (min-width: 768px) { .section-pad { padding-top: 8rem; padding-bottom: 8rem; } }
+.section-pad { padding-top: 3.5rem; padding-bottom: 3.5rem; }
+@media (min-width: 640px)  { .section-pad { padding-top: 5rem;   padding-bottom: 5rem;   } }
+@media (min-width: 768px)  { .section-pad { padding-top: 6rem;   padding-bottom: 6rem;   } }
+@media (min-width: 1024px) { .section-pad { padding-top: 8rem;   padding-bottom: 8rem;   } }
 
-.section-pad-lg { padding-top: 8rem; padding-bottom: 8rem; }
-@media (min-width: 768px) { .section-pad-lg { padding-top: 10rem; padding-bottom: 10rem; } }
+.section-pad-lg { padding-top: 4rem; padding-bottom: 4rem; }
+@media (min-width: 768px)  { .section-pad-lg { padding-top: 8rem;  padding-bottom: 8rem;  } }
+@media (min-width: 1024px) { .section-pad-lg { padding-top: 10rem; padding-bottom: 10rem; } }
 
 /* ── Typography ── */
 .section-heading {
-  font-size: clamp(1.875rem, 3.5vw, 2.75rem);
+  font-size: clamp(1.5rem, 5vw, 2.75rem);
   font-weight: 600;
   color: #222222;
   line-height: 1.2;

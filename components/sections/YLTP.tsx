@@ -42,13 +42,14 @@ export default function YLTP() {
             <style>{`
               @media (min-width: 1024px) {
                 .yltp-what-grid { grid-template-columns: 13fr 7fr; }
+                .yltp-left-pad { padding-right: 2rem; }
               }
             `}</style>
             <div className="yltp-what-grid grid items-stretch gap-12 lg:gap-16">
 
               {/* Left — What is YLTP */}
               <Fade>
-                <div className="flex flex-col justify-center h-full" style={{ paddingRight: "2rem" }}>
+                <div className="flex flex-col justify-center h-full yltp-left-pad">
                   <h3
                     className="font-bold text-stone-900"
                     style={{ fontSize: "clamp(2.25rem, 4vw, 3.75rem)", lineHeight: 1.1, marginBottom: "1.25rem" }}

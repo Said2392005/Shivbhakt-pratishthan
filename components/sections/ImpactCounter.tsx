@@ -84,7 +84,7 @@ export default function ImpactCounter() {
             Making a Difference <span className="text-saffron-500">Across Maharashtra</span>
           </h2>
           <div className="divider divider-center mt-3" />
-          <p className="text-stone-500 mt-4" style={{ fontSize: "0.95rem", maxWidth: 860, whiteSpace: "nowrap", margin: "1rem auto 0", textAlign: "center", display: "block" }}>
+          <p className="text-stone-500 mt-4" style={{ fontSize: "0.95rem", maxWidth: 680, margin: "1rem auto 0", textAlign: "center", display: "block" }}>
             A decade of relentless service — measured not just in numbers, but in communities transformed.
           </p>
         </Fade>

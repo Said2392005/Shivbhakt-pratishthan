@@ -19,7 +19,8 @@ export default function Quotes() {
         <Fade>
           <div className="bg-white border border-stone-100 rounded-md overflow-hidden shadow-sm">
 
-            <div className="relative overflow-hidden" style={{ aspectRatio: "21/9" }}>
+            <style>{`.shivaji-banner{aspect-ratio:4/3;}@media(min-width:640px){.shivaji-banner{aspect-ratio:21/9;}}`}</style>
+            <div className="shivaji-banner relative overflow-hidden">
               <img
                 src="/shivaji-full.png"
                 alt="Chhatrapati Shivaji Maharaj"

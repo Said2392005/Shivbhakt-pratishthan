@@ -69,8 +69,8 @@ export default function Leadership() {
         </Fade>
 
         {/* Subtitle — standalone centred row */}
-        <div style={{ width: "100%", textAlign: "center", marginBottom: "3.5rem", marginTop: "1.25rem" }}>
-          <p style={{ fontSize: "1.2rem", color: "#857D72", display: "inline-block" }}>
+        <div style={{ width: "100%", textAlign: "center", marginBottom: "3.5rem", marginTop: "1.25rem", paddingLeft: "1rem", paddingRight: "1rem" }}>
+          <p style={{ fontSize: "clamp(1rem, 1.5vw, 1.2rem)", color: "#857D72", maxWidth: 700, margin: "0 auto" }}>
             Led by experienced community leaders and trustees, our executive committee steers Shivbhakt Pratishthan towards an empowered Maharashtra.
           </p>
         </div>
